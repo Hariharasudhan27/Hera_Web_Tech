@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo-img {
+            width: 200px; /* Adjust the width as needed */
+            opacity: 0.7; /* Adjust the opacity to make it transparent */
+        }
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+
+/* Add styles for the About section */
+/* Add styles for the About section content */
+/* Add styles for the About section content */
+/* Add styles for the About section content */
+/* Style the About section */
+.about-section {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.about-contents h2{
+    font-family: 50px;
+    font-size: 50px;
+    color: #ff7200;
+    padding-left: 825px;
+}
+/* Split container for left and right sides */
+.split-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left side (image) */
+.split-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.split-left img {
+    max-width: 80%;
+    padding-left: 100px;
+
+}
+
+/* Right side (content) */
+.split-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.split-right h2 {
+    font-size: 70px;
+    color: #090909;
+    margin-bottom: 20px;
+    font-weight: 500;
+}.split-right h1 {
+    font-size: 24px;
+    color: #ff7200;
+    
+
+}.split-right h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #ff7200;
+    margin-bottom: 30px;
+}
+.split-right p {
+    color: #6c5757;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+
+}
+
+.split-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.split-right li {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #ff7200;
+    padding-left: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .split-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .split-left,
+    .split-right {
+        flex: auto;
+        padding: 20px;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+/* Add styles for the Services section */
+/* Add styles for the Services section */
+/* Your existing CSS code goes here */
+
+/* Style the Services section */
+.service-container {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.service-container h2 {
+    font-family: 50px;
+    font-size: 50px;
+    color: #ff7200;
+    padding-bottom: 100px;
+    
+}
+
+/* Style the service cards */
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 360x;
+    color: #ff6600;
+    margin-bottom: 35px;
+}
+
+.service-card h3 {
+    font-size: 50px;
+    color: #ff7200;
+    margin-bottom: 40px;
+}
+
+.service-card p {
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+}
+
+.industry-contents h2{
+    font-family: 50px;
+    font-size: 50px;
+    color: #ff7200;
+    padding-bottom: 50px;
+    padding-left: 795px;
+    padding-top:50px ;
+
+}
+.industry-subsections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.industry-subsection img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Add some spacing below the image */
+}
+
+.industry-subsection {
+    flex-basis: calc(33.33% - 20px);
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 500px; /* Set the desired width */
+    height: 150px;
+    padding-left: 250px;
+}
+
+.industry-subsection h4 {
+    font-size: 24px;
+    color: #ff7200;
+    margin-bottom: 25px;
+}
+
+.industry-subsection p {
+    font-size: 22px;
+    color: #6c5757;
+}
+
+
+
+.fusion-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.fusion-content h2 {
+    font-family: 50px;
+    font-size: 50px;
+    color: #ff7200;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-top:100px ;
+}
+
+.fusion-content p {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+.fusion-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow images to wrap to the next row on small screens */
+}
+
+.fusion-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Add margin between images */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .fusion-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .fusion-images {
+        justify-content: center;
+    }
+}
+/* Reset some default styles */
+/* Reset some default styles */
+ /* Style the contact section */
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the form container */
+  .form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Style the form heading */
+  .form h2 {
+    color: #ff6600;
+    font-size: 45px;
+  }
+  
+  /* Style the input fields */
+  .form input[type="email"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style the login button */
+  .form button.btnn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form button.btnn a:hover {
+    background-color: #e55600;
+  }
+  
+  /* Style the links */
+  .link a {
+    text-decoration: none;
+    color: #ff6600;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the social media icons */
+  .icons {
+    margin-top: 20px;
+  }
+  
+  .icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .form {
+      width: 80%;
+    }
+  }
+
+
+
+
+  
+
+
